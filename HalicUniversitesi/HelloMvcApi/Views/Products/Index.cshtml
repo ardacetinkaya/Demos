@@ -1,0 +1,25 @@
+
+@model List<HelloMvcApi.Product>
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Details";
+}
+
+<div class="row">
+    <table>
+        @foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+}
+    </table>
+    
+</div>
+        
+        

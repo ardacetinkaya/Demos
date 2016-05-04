@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+           "taskName": "run",
+           "args": [
+               
+           ],
+           "isBuildCommand": true
+        },
+        {
+            "taskName": "version",
+            "isBuildCommand": true
+            
+        }
+    ]
+}
